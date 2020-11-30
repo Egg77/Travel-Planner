@@ -9,19 +9,11 @@ import SwiftUI
 
 struct ItemInfoView: View {
     var body: some View {
+        //Main icon, title, category
         VStack(alignment: .leading){
-            HStack(alignment: .top){
-                Image("RestaurantIcon")
-                .padding(.all, 20.0)
-                VStack(alignment: .leading) {
-                    Text("Restaurant Biscotte")
-                    .font(.title)
-                    Text("French")
-                    .font(.subheadline)
-            }
-            .padding(.vertical)
-            Spacer()
-            }
+            ItemViewHeader()
+            ItemInfo()
+                .padding(.leading, 83.0)
         Spacer()
         }
     }

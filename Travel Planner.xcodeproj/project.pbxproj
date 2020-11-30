@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CD64AB352557BA7F00A12660 /* Travel_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64AB342557BA7F00A12660 /* Travel_PlannerApp.swift */; };
-		CD64AB372557BA7F00A12660 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64AB362557BA7F00A12660 /* ContentView.swift */; };
 		CD64AB392557BA8100A12660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD64AB382557BA8100A12660 /* Assets.xcassets */; };
 		CD64AB3C2557BA8100A12660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD64AB3B2557BA8100A12660 /* Preview Assets.xcassets */; };
 		CD64AB472557BA8100A12660 /* Travel_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64AB462557BA8100A12660 /* Travel_PlannerTests.swift */; };
@@ -16,6 +15,9 @@
 		CD64AB7D2557BBE900A12660 /* ItemViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64AB7A2557BBE900A12660 /* ItemViewMain.swift */; };
 		CD64AB7E2557BBE900A12660 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64AB7B2557BBE900A12660 /* MapView.swift */; };
 		CD64AB7F2557BBE900A12660 /* ItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64AB7C2557BBE900A12660 /* ItemInfoView.swift */; };
+		CDB4DC7C25746F4300288E86 /* ItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4DC7B25746F4300288E86 /* ItemInfo.swift */; };
+		CDB4DC8125746F6800288E86 /* ItemViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4DC8025746F6800288E86 /* ItemViewHeader.swift */; };
+		CDB4DC8925747BC800288E86 /* DateTimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4DC8825747BC800288E86 /* DateTimeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 /* Begin PBXFileReference section */
 		CD64AB312557BA7F00A12660 /* Travel Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD64AB342557BA7F00A12660 /* Travel_PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_PlannerApp.swift; sourceTree = "<group>"; };
-		CD64AB362557BA7F00A12660 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD64AB382557BA8100A12660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD64AB3B2557BA8100A12660 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD64AB3D2557BA8100A12660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		CD64AB7A2557BBE900A12660 /* ItemViewMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewMain.swift; sourceTree = "<group>"; };
 		CD64AB7B2557BBE900A12660 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		CD64AB7C2557BBE900A12660 /* ItemInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemInfoView.swift; sourceTree = "<group>"; };
+		CDB4DC7B25746F4300288E86 /* ItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfo.swift; sourceTree = "<group>"; };
+		CDB4DC8025746F6800288E86 /* ItemViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewHeader.swift; sourceTree = "<group>"; };
+		CDB4DC8825747BC800288E86 /* DateTimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,6 @@
 			children = (
 				CD64AB6A2557BB5100A12660 /* Item View */,
 				CD64AB342557BA7F00A12660 /* Travel_PlannerApp.swift */,
-				CD64AB362557BA7F00A12660 /* ContentView.swift */,
 				CD64AB382557BA8100A12660 /* Assets.xcassets */,
 				CD64AB3D2557BA8100A12660 /* Info.plist */,
 				CD64AB3A2557BA8100A12660 /* Preview Content */,
@@ -141,6 +144,9 @@
 			isa = PBXGroup;
 			children = (
 				CD64AB7C2557BBE900A12660 /* ItemInfoView.swift */,
+				CDB4DC8025746F6800288E86 /* ItemViewHeader.swift */,
+				CDB4DC8825747BC800288E86 /* DateTimeButton.swift */,
+				CDB4DC7B25746F4300288E86 /* ItemInfo.swift */,
 				CD64AB7A2557BBE900A12660 /* ItemViewMain.swift */,
 				CD64AB7B2557BBE900A12660 /* MapView.swift */,
 			);
@@ -276,10 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD64AB372557BA7F00A12660 /* ContentView.swift in Sources */,
 				CD64AB7E2557BBE900A12660 /* MapView.swift in Sources */,
 				CD64AB7F2557BBE900A12660 /* ItemInfoView.swift in Sources */,
+				CDB4DC8925747BC800288E86 /* DateTimeButton.swift in Sources */,
 				CD64AB7D2557BBE900A12660 /* ItemViewMain.swift in Sources */,
+				CDB4DC7C25746F4300288E86 /* ItemInfo.swift in Sources */,
+				CDB4DC8125746F6800288E86 /* ItemViewHeader.swift in Sources */,
 				CD64AB352557BA7F00A12660 /* Travel_PlannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
