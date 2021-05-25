@@ -1,0 +1,14 @@
+{
+  "EndDateTime" : null,
+  "StartDateTime" : null,
+  "Name" : "Home",
+  "DummyAddress" : "135 13th Avenue SW \nCalgary, Alberta \nT2R 0W8",
+  "longitude" : -114.06547999999999,
+  "latitude" : 51.040289999999999,
+  "URL" : "http:\/\/www.google.ca",
+  "CustomName" : null,
+  "AddedBy" : "Patrick",
+  "PhoneNumber" : "403-990-3791",
+  "UserNotes" : "I live here. It's a nice place with cats and the things I own.",
+  "Category" : "Apartment Building"
+}

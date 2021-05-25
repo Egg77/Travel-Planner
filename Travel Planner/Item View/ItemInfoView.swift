@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct ItemInfoView: View {
+    
+    //Not currently used here, but added in case that changes:
+    @EnvironmentObject var item : ItemClass
+    
     var body: some View {
         //Main icon, title, category
         VStack(alignment: .leading){
             ItemViewHeader()
             ItemInfo()
                 .padding(.leading, 83.0)
-        Spacer()
         }
     }
 }

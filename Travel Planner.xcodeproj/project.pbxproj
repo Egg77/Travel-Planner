@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD5D522E25C7647000B8D60B /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D522D25C7647000B8D60B /* ListItem.swift */; };
+		CD5D523325C76DE200B8D60B /* NavBarBurger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D523225C76DE200B8D60B /* NavBarBurger.swift */; };
+		CD5D523E25C770B500B8D60B /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D523D25C770B500B8D60B /* Burger.swift */; };
+		CD5D524325C7728D00B8D60B /* NameViewToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D524225C7728D00B8D60B /* NameViewToggle.swift */; };
 		CD64AB352557BA7F00A12660 /* Travel_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64AB342557BA7F00A12660 /* Travel_PlannerApp.swift */; };
 		CD64AB392557BA8100A12660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD64AB382557BA8100A12660 /* Assets.xcassets */; };
 		CD64AB3C2557BA8100A12660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD64AB3B2557BA8100A12660 /* Preview Assets.xcassets */; };
@@ -15,9 +19,15 @@
 		CD64AB7D2557BBE900A12660 /* ItemViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64AB7A2557BBE900A12660 /* ItemViewMain.swift */; };
 		CD64AB7E2557BBE900A12660 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64AB7B2557BBE900A12660 /* MapView.swift */; };
 		CD64AB7F2557BBE900A12660 /* ItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64AB7C2557BBE900A12660 /* ItemInfoView.swift */; };
+		CDA89C7925B4CF7300EA9786 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA89C7825B4CF7300EA9786 /* BackButton.swift */; };
+		CDA89C7E25B4DBDC00EA9786 /* NavBarBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA89C7D25B4DBDB00EA9786 /* NavBarBack.swift */; };
+		CDA89C8825B4F27600EA9786 /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA89C8725B4F27600EA9786 /* ItineraryView.swift */; };
 		CDB4DC7C25746F4300288E86 /* ItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4DC7B25746F4300288E86 /* ItemInfo.swift */; };
 		CDB4DC8125746F6800288E86 /* ItemViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4DC8025746F6800288E86 /* ItemViewHeader.swift */; };
 		CDB4DC8925747BC800288E86 /* DateTimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB4DC8825747BC800288E86 /* DateTimeButton.swift */; };
+		CDCB9836265C7DA1000EDD47 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB9835265C7DA1000EDD47 /* ItemList.swift */; };
+		CDE55CDE25D0B36500470087 /* ViewToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE55CDD25D0B36500470087 /* ViewToggle.swift */; };
+		CDEC20E325D9B6C4005491E6 /* ItemClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC20E225D9B6C4005491E6 /* ItemClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD5D522D25C7647000B8D60B /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		CD5D523225C76DE200B8D60B /* NavBarBurger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarBurger.swift; sourceTree = "<group>"; };
+		CD5D523D25C770B500B8D60B /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
+		CD5D524225C7728D00B8D60B /* NameViewToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewToggle.swift; sourceTree = "<group>"; };
 		CD64AB312557BA7F00A12660 /* Travel Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Travel Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD64AB342557BA7F00A12660 /* Travel_PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Travel_PlannerApp.swift; sourceTree = "<group>"; };
 		CD64AB382557BA8100A12660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,9 +66,15 @@
 		CD64AB7A2557BBE900A12660 /* ItemViewMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewMain.swift; sourceTree = "<group>"; };
 		CD64AB7B2557BBE900A12660 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		CD64AB7C2557BBE900A12660 /* ItemInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemInfoView.swift; sourceTree = "<group>"; };
+		CDA89C7825B4CF7300EA9786 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		CDA89C7D25B4DBDB00EA9786 /* NavBarBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarBack.swift; sourceTree = "<group>"; };
+		CDA89C8725B4F27600EA9786 /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
 		CDB4DC7B25746F4300288E86 /* ItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfo.swift; sourceTree = "<group>"; };
 		CDB4DC8025746F6800288E86 /* ItemViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewHeader.swift; sourceTree = "<group>"; };
 		CDB4DC8825747BC800288E86 /* DateTimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeButton.swift; sourceTree = "<group>"; };
+		CDCB9835265C7DA1000EDD47 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		CDE55CDD25D0B36500470087 /* ViewToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewToggle.swift; sourceTree = "<group>"; };
+		CDEC20E225D9B6C4005491E6 /* ItemClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemClass.swift; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +125,11 @@
 		CD64AB332557BA7F00A12660 /* Travel Planner */ = {
 			isa = PBXGroup;
 			children = (
+				CDA89C8225B4EC1C00EA9786 /* Itinerary View */,
 				CD64AB6A2557BB5100A12660 /* Item View */,
 				CD64AB342557BA7F00A12660 /* Travel_PlannerApp.swift */,
+				CDCB9835265C7DA1000EDD47 /* ItemList.swift */,
+				CDEC20E225D9B6C4005491E6 /* ItemClass.swift */,
 				CD64AB382557BA8100A12660 /* Assets.xcassets */,
 				CD64AB3D2557BA8100A12660 /* Info.plist */,
 				CD64AB3A2557BA8100A12660 /* Preview Content */,
@@ -143,14 +166,45 @@
 		CD64AB6A2557BB5100A12660 /* Item View */ = {
 			isa = PBXGroup;
 			children = (
-				CD64AB7C2557BBE900A12660 /* ItemInfoView.swift */,
-				CDB4DC8025746F6800288E86 /* ItemViewHeader.swift */,
-				CDB4DC8825747BC800288E86 /* DateTimeButton.swift */,
-				CDB4DC7B25746F4300288E86 /* ItemInfo.swift */,
+				CDA89C7425B4CD3B00EA9786 /* Components */,
 				CD64AB7A2557BBE900A12660 /* ItemViewMain.swift */,
-				CD64AB7B2557BBE900A12660 /* MapView.swift */,
 			);
 			path = "Item View";
+			sourceTree = "<group>";
+		};
+		CDA89C7425B4CD3B00EA9786 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CD64AB7B2557BBE900A12660 /* MapView.swift */,
+				CDB4DC8825747BC800288E86 /* DateTimeButton.swift */,
+				CDB4DC7B25746F4300288E86 /* ItemInfo.swift */,
+				CDB4DC8025746F6800288E86 /* ItemViewHeader.swift */,
+				CD64AB7C2557BBE900A12660 /* ItemInfoView.swift */,
+				CDA89C7825B4CF7300EA9786 /* BackButton.swift */,
+				CDA89C7D25B4DBDB00EA9786 /* NavBarBack.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		CDA89C8225B4EC1C00EA9786 /* Itinerary View */ = {
+			isa = PBXGroup;
+			children = (
+				CDA89C8625B4F26300EA9786 /* Components */,
+				CDA89C8725B4F27600EA9786 /* ItineraryView.swift */,
+			);
+			path = "Itinerary View";
+			sourceTree = "<group>";
+		};
+		CDA89C8625B4F26300EA9786 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CD5D522D25C7647000B8D60B /* ListItem.swift */,
+				CD5D523225C76DE200B8D60B /* NavBarBurger.swift */,
+				CD5D523D25C770B500B8D60B /* Burger.swift */,
+				CD5D524225C7728D00B8D60B /* NameViewToggle.swift */,
+				CDE55CDD25D0B36500470087 /* ViewToggle.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,13 +336,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA89C7925B4CF7300EA9786 /* BackButton.swift in Sources */,
 				CD64AB7E2557BBE900A12660 /* MapView.swift in Sources */,
+				CDCB9836265C7DA1000EDD47 /* ItemList.swift in Sources */,
+				CDA89C7E25B4DBDC00EA9786 /* NavBarBack.swift in Sources */,
 				CD64AB7F2557BBE900A12660 /* ItemInfoView.swift in Sources */,
+				CD5D523E25C770B500B8D60B /* Burger.swift in Sources */,
+				CD5D522E25C7647000B8D60B /* ListItem.swift in Sources */,
+				CDE55CDE25D0B36500470087 /* ViewToggle.swift in Sources */,
+				CD5D523325C76DE200B8D60B /* NavBarBurger.swift in Sources */,
 				CDB4DC8925747BC800288E86 /* DateTimeButton.swift in Sources */,
 				CD64AB7D2557BBE900A12660 /* ItemViewMain.swift in Sources */,
 				CDB4DC7C25746F4300288E86 /* ItemInfo.swift in Sources */,
 				CDB4DC8125746F6800288E86 /* ItemViewHeader.swift in Sources */,
+				CD5D524325C7728D00B8D60B /* NameViewToggle.swift in Sources */,
+				CDA89C8825B4F27600EA9786 /* ItineraryView.swift in Sources */,
 				CD64AB352557BA7F00A12660 /* Travel_PlannerApp.swift in Sources */,
+				CDEC20E325D9B6C4005491E6 /* ItemClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

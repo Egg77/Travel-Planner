@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct ItemInfo: View {
+    
+    //Remove the optional once you figure out how to initialize this:
+    @EnvironmentObject var item : ItemClass
+    
     var body: some View {
         VStack(alignment: .leading) {
             Text("Address")
                 .font(.caption)
-            Text("22 Rue Desnouettes, 75015 Paris, France")
+            Text(item.DummyAddress ?? "BLANK")
                 .font(.body)
                 .lineLimit(/*@START_MENU_TOKEN@*/4/*@END_MENU_TOKEN@*/)
             Text("\n")
@@ -20,14 +24,14 @@ struct ItemInfo: View {
             Text("Website")
                 .font(.caption)
                 .lineLimit(1)
-            Text("http://www.restaurant-biscotte.com")
+            Text(item.URL ?? "None")
                 .font(.body)
             Text("\n")
                 .font(.caption)
             Text("Phone Number")
                 .font(.caption)
                 .lineLimit(1)
-            Text("+33 1 45 33 22 22")
+            Text(item.PhoneNumber ?? "None")
                 .font(.body)
                 .lineLimit(1)
         }

@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct DateTimeButton: View {
+    
+    //Remove the optional once you figure out how to initialize this:
+    @EnvironmentObject var item : ItemClass
+    
     var body: some View {
         Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
             VStack(alignment: .trailing) {

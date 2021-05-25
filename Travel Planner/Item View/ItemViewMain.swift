@@ -8,12 +8,22 @@
 import SwiftUI
 
 struct ItemViewMain: View {
+    
+    //Remove the optional once you figure out how to initialize this:
+    var item = ItemClass()
+    
     var body: some View {
-        VStack{
-            MapView()
-                .edgesIgnoringSafeArea(.top)
-            ItemInfoView()
-                .frame(height: 500, alignment: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+        //Setting this spacing to zero seems to be necessary to ensure that all the elements are jammed right up next to each other
+        VStack(spacing: 0){
+            //Setting the ZStack alignment here determines how all the sub-items are aligned
+            ZStack(alignment: .topLeading){
+                MapView().environmentObject(item)
+                .frame(minHeight: 250, idealHeight: 275, maxHeight: 300)
+                NavBarBack().environmentObject(item)
+            }
+               // .edgesIgnoringSafeArea(.top)
+            ItemInfoView().environmentObject(item)
+            Spacer()
         }
     }
 }
